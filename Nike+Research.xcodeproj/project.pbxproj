@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52E3D2121E7F0D990064B02E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E3D2111E7F0D990064B02E /* AppDelegate.swift */; };
+		52E3D2141E7F0D990064B02E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E3D2131E7F0D990064B02E /* ViewController.swift */; };
+		52E3D2171E7F0D990064B02E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E3D2151E7F0D990064B02E /* Main.storyboard */; };
+		52E3D2191E7F0D990064B02E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E3D2181E7F0D990064B02E /* Assets.xcassets */; };
+		52E3D21C1E7F0D990064B02E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E3D21A1E7F0D990064B02E /* LaunchScreen.storyboard */; };
+		52E3D2241E7F0DAD0064B02E /* Shoe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E3D2231E7F0DAD0064B02E /* Shoe.swift */; };
+		52E3D2261E7F136C0064B02E /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E3D2251E7F136C0064B02E /* FeedTableViewController.swift */; };
+		52E3D2281E7F14320064B02E /* FeedShoeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E3D2271E7F14320064B02E /* FeedShoeTableViewCell.swift */; };
+		52E3D22E1E7F32FD0064B02E /* ShoeDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E3D22D1E7F32FD0064B02E /* ShoeDetailTableViewController.swift */; };
+		52E3D2351E7F442B0064B02E /* ShoeDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E3D2341E7F442B0064B02E /* ShoeDetailCell.swift */; };
+		52F7B6131E7F955D00735A46 /* ShoppingBagTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B6121E7F955D00735A46 /* ShoppingBagTableViewController.swift */; };
+		52F7B6161E7F9F7E00735A46 /* CheckoutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B6151E7F9F7E00735A46 /* CheckoutTableViewController.swift */; };
+		52FB4BDF1ECFE1FF002B2E93 /* SuggestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB4BDE1ECFE1FF002B2E93 /* SuggestionTableViewCell.swift */; };
+		52FB4BE11ECFE256002B2E93 /* SuggestionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB4BE01ECFE256002B2E93 /* SuggestionCollectionViewCell.swift */; };
+		52FDBCE31E87718D00A59876 /* ShoeImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FDBCE21E87718D00A59876 /* ShoeImageViewController.swift */; };
+		52FDBCE51E8771FB00A59876 /* ShoeImagesPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FDBCE41E8771FB00A59876 /* ShoeImagesPageViewController.swift */; };
+		52FDBCE71E877B0A00A59876 /* ShoeImagesHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FDBCE61E877B0A00A59876 /* ShoeImagesHeaderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52E3D20E1E7F0D990064B02E /* Nike+Research.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nike+Research.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E3D2111E7F0D990064B02E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52E3D2131E7F0D990064B02E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52E3D2161E7F0D990064B02E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52E3D2181E7F0D990064B02E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52E3D21B1E7F0D990064B02E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52E3D21D1E7F0D990064B02E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52E3D2231E7F0DAD0064B02E /* Shoe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shoe.swift; sourceTree = "<group>"; };
+		52E3D2251E7F136C0064B02E /* FeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
+		52E3D2271E7F14320064B02E /* FeedShoeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedShoeTableViewCell.swift; sourceTree = "<group>"; };
+		52E3D22D1E7F32FD0064B02E /* ShoeDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoeDetailTableViewController.swift; sourceTree = "<group>"; };
+		52E3D2341E7F442B0064B02E /* ShoeDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoeDetailCell.swift; sourceTree = "<group>"; };
+		52F7B6121E7F955D00735A46 /* ShoppingBagTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingBagTableViewController.swift; sourceTree = "<group>"; };
+		52F7B6151E7F9F7E00735A46 /* CheckoutTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutTableViewController.swift; sourceTree = "<group>"; };
+		52FB4BDE1ECFE1FF002B2E93 /* SuggestionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestionTableViewCell.swift; sourceTree = "<group>"; };
+		52FB4BE01ECFE256002B2E93 /* SuggestionCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestionCollectionViewCell.swift; sourceTree = "<group>"; };
+		52FDBCE21E87718D00A59876 /* ShoeImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoeImageViewController.swift; sourceTree = "<group>"; };
+		52FDBCE41E8771FB00A59876 /* ShoeImagesPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoeImagesPageViewController.swift; sourceTree = "<group>"; };
+		52FDBCE61E877B0A00A59876 /* ShoeImagesHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoeImagesHeaderView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52E3D20B1E7F0D990064B02E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52E3D2051E7F0D990064B02E = {
+			isa = PBXGroup;
+			children = (
+				52E3D2101E7F0D990064B02E /* Nike+Research */,
+				52E3D20F1E7F0D990064B02E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52E3D20F1E7F0D990064B02E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52E3D20E1E7F0D990064B02E /* Nike+Research.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52E3D2101E7F0D990064B02E /* Nike+Research */ = {
+			isa = PBXGroup;
+			children = (
+				52E3D2111E7F0D990064B02E /* AppDelegate.swift */,
+				52E3D2131E7F0D990064B02E /* ViewController.swift */,
+				52E3D2151E7F0D990064B02E /* Main.storyboard */,
+				52E3D2331E7F43FD0064B02E /* MODEL */,
+				52E3D2321E7F43DB0064B02E /* DETAIL */,
+				52E3D2311E7F43BD0064B02E /* FEED */,
+				52F7B6141E7F956100735A46 /* SHOPPING BAG */,
+				52E3D2181E7F0D990064B02E /* Assets.xcassets */,
+				52E3D21A1E7F0D990064B02E /* LaunchScreen.storyboard */,
+				52E3D21D1E7F0D990064B02E /* Info.plist */,
+			);
+			path = "Nike+Research";
+			sourceTree = "<group>";
+		};
+		52E3D2311E7F43BD0064B02E /* FEED */ = {
+			isa = PBXGroup;
+			children = (
+				52E3D2251E7F136C0064B02E /* FeedTableViewController.swift */,
+				52E3D2271E7F14320064B02E /* FeedShoeTableViewCell.swift */,
+			);
+			name = FEED;
+			sourceTree = "<group>";
+		};
+		52E3D2321E7F43DB0064B02E /* DETAIL */ = {
+			isa = PBXGroup;
+			children = (
+				52E3D22D1E7F32FD0064B02E /* ShoeDetailTableViewController.swift */,
+				52FDBCE21E87718D00A59876 /* ShoeImageViewController.swift */,
+				52FDBCE41E8771FB00A59876 /* ShoeImagesPageViewController.swift */,
+				52FDBCE11E8759FC00A59876 /* Views */,
+			);
+			name = DETAIL;
+			sourceTree = "<group>";
+		};
+		52E3D2331E7F43FD0064B02E /* MODEL */ = {
+			isa = PBXGroup;
+			children = (
+				52E3D2231E7F0DAD0064B02E /* Shoe.swift */,
+			);
+			name = MODEL;
+			sourceTree = "<group>";
+		};
+		52F7B6141E7F956100735A46 /* SHOPPING BAG */ = {
+			isa = PBXGroup;
+			children = (
+				52F7B6121E7F955D00735A46 /* ShoppingBagTableViewController.swift */,
+				52F7B6151E7F9F7E00735A46 /* CheckoutTableViewController.swift */,
+			);
+			name = "SHOPPING BAG";
+			sourceTree = "<group>";
+		};
+		52FDBCE11E8759FC00A59876 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52FDBCE61E877B0A00A59876 /* ShoeImagesHeaderView.swift */,
+				52E3D2341E7F442B0064B02E /* ShoeDetailCell.swift */,
+				52FB4BDE1ECFE1FF002B2E93 /* SuggestionTableViewCell.swift */,
+				52FB4BE01ECFE256002B2E93 /* SuggestionCollectionViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52E3D20D1E7F0D990064B02E /* Nike+Research */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52E3D2201E7F0D990064B02E /* Build configuration list for PBXNativeTarget "Nike+Research" */;
+			buildPhases = (
+				52E3D20A1E7F0D990064B02E /* Sources */,
+				52E3D20B1E7F0D990064B02E /* Frameworks */,
+				52E3D20C1E7F0D990064B02E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nike+Research";
+			productName = "Nike+Research";
+			productReference = 52E3D20E1E7F0D990064B02E /* Nike+Research.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52E3D2061E7F0D990064B02E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Developers Academy";
+				TargetAttributes = {
+					52E3D20D1E7F0D990064B02E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 593ZXM85A3;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 52E3D2091E7F0D990064B02E /* Build configuration list for PBXProject "Nike+Research" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52E3D2051E7F0D990064B02E;
+			productRefGroup = 52E3D20F1E7F0D990064B02E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52E3D20D1E7F0D990064B02E /* Nike+Research */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52E3D20C1E7F0D990064B02E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E3D21C1E7F0D990064B02E /* LaunchScreen.storyboard in Resources */,
+				52E3D2191E7F0D990064B02E /* Assets.xcassets in Resources */,
+				52E3D2171E7F0D990064B02E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52E3D20A1E7F0D990064B02E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E3D2241E7F0DAD0064B02E /* Shoe.swift in Sources */,
+				52F7B6131E7F955D00735A46 /* ShoppingBagTableViewController.swift in Sources */,
+				52E3D2351E7F442B0064B02E /* ShoeDetailCell.swift in Sources */,
+				52E3D2141E7F0D990064B02E /* ViewController.swift in Sources */,
+				52FDBCE51E8771FB00A59876 /* ShoeImagesPageViewController.swift in Sources */,
+				52FDBCE31E87718D00A59876 /* ShoeImageViewController.swift in Sources */,
+				52E3D2121E7F0D990064B02E /* AppDelegate.swift in Sources */,
+				52E3D2281E7F14320064B02E /* FeedShoeTableViewCell.swift in Sources */,
+				52FB4BE11ECFE256002B2E93 /* SuggestionCollectionViewCell.swift in Sources */,
+				52E3D2261E7F136C0064B02E /* FeedTableViewController.swift in Sources */,
+				52FDBCE71E877B0A00A59876 /* ShoeImagesHeaderView.swift in Sources */,
+				52E3D22E1E7F32FD0064B02E /* ShoeDetailTableViewController.swift in Sources */,
+				52F7B6161E7F9F7E00735A46 /* CheckoutTableViewController.swift in Sources */,
+				52FB4BDF1ECFE1FF002B2E93 /* SuggestionTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52E3D2151E7F0D990064B02E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52E3D2161E7F0D990064B02E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52E3D21A1E7F0D990064B02E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52E3D21B1E7F0D990064B02E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52E3D21E1E7F0D990064B02E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52E3D21F1E7F0D990064B02E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52E3D2211E7F0D990064B02E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 593ZXM85A3;
+				INFOPLIST_FILE = "Nike+Research/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.ductran.Nike-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		52E3D2221E7F0D990064B02E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 593ZXM85A3;
+				INFOPLIST_FILE = "Nike+Research/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.ductran.Nike-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52E3D2091E7F0D990064B02E /* Build configuration list for PBXProject "Nike+Research" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E3D21E1E7F0D990064B02E /* Debug */,
+				52E3D21F1E7F0D990064B02E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52E3D2201E7F0D990064B02E /* Build configuration list for PBXNativeTarget "Nike+Research" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E3D2211E7F0D990064B02E /* Debug */,
+				52E3D2221E7F0D990064B02E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52E3D2061E7F0D990064B02E /* Project object */;
+}
